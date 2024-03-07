@@ -3,17 +3,21 @@
 Simple CDK code which demonstrate how to use S3 with AWS LLRT runtime.
 
 > [!TIP]
-> Learn [How to use LLRT on AWS Lambda with AWS CDK & Lambda Layers](https://learnaws.io/blog/llrt-lambda-tutorial)
+> Learn the other ways of [using LLRT on AWS Lambda](https://learnaws.io/blog/llrt-lambda-tutorial).
 
-> [!INFO]
-> Looking for benchmarks?
-> [The faster Lambda runtime - NodeJS or LLRT? We benchmarked.](https://learnaws.io/blog/node-vs-llrt)
+
+![LLRT vs NodeJS init duration log](https://github.com/LearnAWS-io/Lambda-LLRT/assets/23727670/bf41cdc1-71fb-4ce5-af9d-70b39df2374a)
+
+
+> Check out the [benchmarks of LLRT vs NodeJS](https://learnaws.io/blog/node-vs-llrt).
+
+
+## Rendered Result
+![Browser screenshot showing list of buckets returned from AWS Lambda LLRT function URL and rendered as an HTML](https://github.com/LearnAWS-io/Lambda-LLRT/assets/23727670/ef576f88-c9ca-433b-9158-9a3be94cec43)
+
 
 ## Useful commands
-
-- `npm run build` compile typescript to js
-- `npm run watch` watch for changes and compile
-- `npm run test` perform the jest unit tests
+- `npx cdk bootstrap` setup the CDK environment on your AWS account
 - `npx cdk deploy` deploy this stack to your default AWS account/region
 - `npx cdk diff` compare deployed stack with current state
 - `npx cdk synth` emits the synthesized CloudFormation template
